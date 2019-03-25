@@ -1,5 +1,6 @@
 ﻿Script started on 2019-03-25 11:26:05+0530
-#]0;s4d1@ceclab2-System21: ~##[01;32ms4d1@ceclab2-System21#[00m:#[01;34m~#[00m$ rsync -zvh /##[K/home/s4d1/b.txt //home/s4d1/Desktop/S4D1########################[1Phome/s4d1/Desktop/S4D1####################### /home/s4d1/Desktop/S4D1########################[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C/a. txt
+#]0;s4d1@ceclab2-System21: ~##[01;32ms4d1@ceclab2-System21#[00m:#[01;34m~#[00m$ rsync -zvh /##[K/home/s4d1/b.txt //home/s4d1/Desktop/S4D1########################[1Phome/s4d1/Desktop/S4D1####################### /home/s4d1/Desktop/S4D1########################[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C#[C/a. 
+txt
 b.txt
 
 sent 86 bytes  received 35 bytes  242.00 bytes/sec
@@ -11,11 +12,13 @@ drwxr-xr-x          4.10K 2019/03/25 11:28:06 a.txt
 
 sent 86 bytes  received 131 bytes  434.00 bytes/sec
 total size is 6  speedup is 0.03
-#]0;s4d1@ceclab2-System21: ~##[01;32ms4d1@ceclab2-System21#[00m:#[01;34m~#[00m$ rsync -avsh /home/s4d1/Desktop/S4D1/a.txt cs17d11@192.1 68.0.30
+#]0;s4d1@ceclab2-System21: ~##[01;32ms4d1@ceclab2-System21#[00m:#[01;34m~#[00m$ rsync -avsh /home/s4d1/Desktop/S4D1/a.txt cs17d11@192.1 
+68.0.30
 sending incremental file list
 ERROR: destination must be a directory when copying more than 1 file
 rsync error: errors selecting input/output files, dirs (code 3) at main.c(641) [Receiver=3.1.2]
-#]0;s4d1@ceclab2-System21: ~##[01;32ms4d1@ceclab2-System21#[00m:#[01;34m~#[00m$ rsync -avsh /home/s4d1/Desktop/S4D1/a.txt cs17d11@192.1668.0.30:
+#]0;s4d1@ceclab2-System21: ~##[01;32ms4d1@ceclab2-System21#[00m:#[01;34m~#[00m$ rsync -avsh /home/s4d1/Desktop/S4D1/a.txt cs17d11@192.16
+68.0.30:
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
