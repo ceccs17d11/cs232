@@ -1,0 +1,97 @@
+Script started on Thursday 11 April 2019 11:47:02 AM IST
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ clear
+[3;J[H[2J]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo apt-get install nginx
+[sudo] password for cec: 
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+nginx is already the newest version (1.10.3-0ubuntu0.16.04.3).
+The following package was automatically installed and is no longer required:
+  snapd-login-service
+Use 'sudo apt autoremove' to remove it.
+0 upgraded, 0 newly installed, 0 to remove and 31 not upgraded.
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ cd /var/www
+]0;cec@cec-HCL-Desktop: /var/www[01;32mcec@cec-HCL-Desktop[00m:[01;34m/var/www[00m$ ls
+[0m[01;34mhtml[0m
+]0;cec@cec-HCL-Desktop: /var/www[01;32mcec@cec-HCL-Desktop[00m:[01;34m/var/www[00m$ cat index.html
+cat: index.html: No such file or directory
+]0;cec@cec-HCL-Desktop: /var/www[01;32mcec@cec-HCL-Desktop[00m:[01;34m/var/www[00m$ cd html
+]0;cec@cec-HCL-Desktop: /var/www/html[01;32mcec@cec-HCL-Desktop[00m:[01;34m/var/www/html[00m$ syud[K[K[K[Kls
+index.nginx-debian.html
+]0;cec@cec-HCL-Desktop: /var/www/html[01;32mcec@cec-HCL-Desktop[00m:[01;34m/var/www/html[00m$ cat index.html
+cat: index.html: No such file or directory
+]0;cec@cec-HCL-Desktop: /var/www/html[01;32mcec@cec-HCL-Desktop[00m:[01;34m/var/www/html[00m$ cat index.html[1Pindex.html[1Pindex.html[1Pindex.html[1Pindex.htmlsindex.htmluindex.htmldindex.htmloindex.html index.htmlnindex.htmlaindex.htmlnindex.htmloindex.html index.html
+[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[41;66H(B[0;7m[ New File ]
+[3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                   File: index.html                                                                            [42;1H^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next
+[43d(B[0;7m^X(B[m Exit[43;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket
+[3d[1;134H(B[0;7mModified
+[3d(B[m<[36m< <!DOCTYPE html>
+[4d<html>
+[5d<body>
+[7d<h1>[39m(B[mMy First Heading[36m</h1>
+[8d<p>[39m(B[mMy first paragraph.[36m</p>
+[10d</body>
+[11d</html>
+[41d[39m(B[m[K[11;9HArchana       [A
+[A[8;9H[Airst Heading[36m</h1>[39m(B[m[K[20G[36m</h1>[39m(B[m[K[19G[36m</h1>[39m(B[m[K[18G[36m</h1>[39m(B[m[K[17G[36m</h1>[39m(B[m[K[16G[36m</h1>[39m(B[m[K[15G[36m</h1>[39m(B[m[K[14G[36m</h1>[39m(B[m[K[13G[36m</h1>[39m(B[m[K[12G[36m</h1>[39m(B[m[K[11G[36m</h1>[39m(B[m[K[10G[36m</h1>[39m(B[m[K[9G[36m</h1>[39m(B[m[K[8G[36m</h1>[39m(B[m[K[7G[36m</h1>[39m(B[m[K[6G[36m</h1>[39m(B[m[K[5GA[36m</h1>[6G[39m(B[mr[36m</h1>[7G[39m(B[mc[36m</h1>[8G[39m(B[mh[36m</h1>[9G[39m(B[ma[36m</h1>[10G[39m(B[mn[36m</h1>[11G[39m(B[ma[36m</h1>[12G[39m(B[m [36m</h1>[13G[39m(B[mR[36m</h1>[14G[39m(B[mo[36m</h1>[15G[39m(B[ms[36m</h1>[16G[39m(B[mw[36m</h1>[17G[39m(B[m[36m</h1>[39m(B[m[K[16G[36m</h1>[39m(B[m[K[15G[36m</h1>[39m(B[m[K[14G[36m</h1>[39m(B[m[K[13G[36m</h1>[39m(B[m[K[12G[36m</h1>[39m(B[m[K[11Ga[36m</h1>[12G[39m(B[m [36m</h1>[13G[39m(B[mR[36m</h1>[14G[39m(B[mo[36m</h1>[15G[39m(B[ms[36m</h1>[16G[39m(B[me[36m</h1>[17G[39m(B[m [36m</h1>[18G[39m(B[mB[36m</h1>[19G[39m(B[mi[36m</h1>[20G[39m(B[mj[36m</h1>[21G[39m(B[mu[36m</h1>[22G[39m(B[m [36m</h1>[23G[39m(B[m\[36m</h1>[24G[39m(B[m[36m</h1>[39m(B[m[K[23G[36m</h1>[39m(B[m[K[22G[8d.[36m</p>[39m(B[m[K[36m</p>[39m(B[m[K[36m</p>[39m(B[m[K[36m</p>[39m(B[m[K[36m</p>[39m(B[m[K[36m</p>[39m(B[m[K[36m</p>[39m(B[m[K[36m</p>[39m(B[m[K[36m</p>[39m(B[m[K[36m</p>[39m(B[m[K[36m</p>[39m(B[m[K[36m</p>[39m(B[m[K[36m</p>[39m(B[m[K[36m</p>[39m(B[m[K[36m</p>[39m(B[m[K[36m</p>[39m(B[m[K[36m</p>[39m(B[m[K[36m</p>[39m(B[m[K[36m</p>[39m(B[m[K[A[CArchana Rose Biju[36m</h1>[39m(B[m[K[21G[36m</h1>[39m(B[m[K[20G[36m</h1>[39m(B[m[K[19G[36m</h1>[39m(B[m[K[18G[36m</h1>[39m(B[m[K[17G[36m</h1>[39m(B[m[K[16G[36m</h1>[39m(B[m[K[15G[36m</h1>[39m(B[m[K[14G[36m</h1>[39m(B[m[K[13G[36m</h1>[39m(B[m[K[12G[36m</h1>[39m(B[m[K[11G[36m</h1>[39m(B[m[K[10G[36m</h1>[39m(B[m[K[9G[36m</h1>[39m(B[m[K[8G[36m</h1>[39m(B[m[K[7G[36m</h1>[39m(B[m[K[6G[36m</h1>[39m(B[m[K[5GM[36m</h1>[6G[39m(B[mY[36m</h1>[7G[39m(B[m [36m</h1>[8G[39m(B[mH[36m</h1>[9G[39m(B[mT[36m</h1>[10G[39m(B[mTT[36m</h1>[11G[39m(B[mP[36m</h1>[12G[39m(B[m[8;8HA[36m</p>[39m(B[mr[36m</p>[39m(B[mc[36m</p>[39m(B[mg[36m</p>[39m(B[ma[36m</p>[39m(B[mn[36m</p>[39m(B[ma[36m</p>[39m(B[m[36m</p>[39m(B[m[K[36m</p>[39m(B[m[K[36m</p>[39m(B[m[K[36m</p>[39m(B[m[Kh[36m</p>[39m(B[ma[36m</p>[39m(B[mn[36m</p>[39m(B[ma[36m</p>[39m(B[m [36m</p>[39m(B[mR[36m</p>[39m(B[mo[36m</p>[39m(B[ms[36m</p>[39m(B[me[36m</p>[39m(B[m [36m</p>[39m(B[mB[36m</p>[39m(B[mi[36m</p>[39m(B[mj[36m</p>[39m(B[mu[36m</p>[39m(B[m[C[C[C[C7[9;41r8
+[9dM[1;43r[9;1H[36m<[39m(B[m[36mp[39m(B[m[36m>[39m(B[mS4 D[36m<[39m(B[m[36m/[39m(B[m[36mp[39m(B[m[36m>[39m(B[m7[10;41r8
+[10dM[1;43r[10;1H[36m<[39m(B[m[36mp[39m(B[m[36m>[39m(B[mRoll No:11[36m<[39m(B[m[36m/[39m(B[m[36mp[39m(B[m[36m>[39m(B[m
+[41d(B[0;7mFile Name to Write: index.html                                                                                                                 [42;16H(B[m             (B[0;7mM-D(B[m DOS Format[14X[42;57H(B[0;7mM-A(B[m Append[18X[42;85H(B[0;7mM-B(B[m Backup File[K[43;2H(B[0;7mC(B[m Cancel[16G             (B[0;7mM-M(B[m Mac Format[14X[43;57H(B[0;7mM-P(B[m Prepend[17X[43;85H(B[0;7m^T(B[m To Files[K[41;31H[?25l[41;62H[39;49m(B[m[1K (B[0;7m[ Wrote 11 lines ](B[m[K[10;18H[?12l[?25h[1;134H(B[0;7m        [42;16H^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[10;18H
+[41d(B[0;7mFile Name to Write: index.html                                                                                                                 [42;16H(B[m             (B[0;7mM-D(B[m DOS Format[14X[42;57H(B[0;7mM-A(B[m Append[18X[42;85H(B[0;7mM-B(B[m Backup File[K[43;2H(B[0;7mC(B[m Cancel[16G             (B[0;7mM-M(B[m Mac Format[14X[43;57H(B[0;7mM-P(B[m Prepend[17X[43;85H(B[0;7m^T(B[m To Files[K[41;31H[?25l[41;62H[39;49m(B[m[1K (B[0;7m[ Wrote 11 lines ](B[m[K[10;18H[?12l[?25h[42;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[10;18H
+[41d[J[43;143H[43;1H[?1049l
+[?1l>]0;cec@cec-HCL-Desktop: /var/www/html[01;32mcec@cec-HCL-Desktop[00m:[01;34m/var/www/html[00m$ cat in dex.html[1Pdex.html
+< <!DOCTYPE html>
+<html>
+<body>
+
+<h1>MY HTTP</h1>
+<p>Archana Rose Biju</p>
+<p>S4 D</p>
+<p>Roll No:11</p>
+
+</body>
+</html> 
+]0;cec@cec-HCL-Desktop: /var/www/html[01;32mcec@cec-HCL-Desktop[00m:[01;34m/var/www/html[00m$ cat index.html[6@sudo nano[C[C[C[C[C[C[C[C[C[C[C
+[?1049h[1;43r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[41;64H(B[0;7m[ Reading File ]
+[3d(B[m[41;70H(B[0;7m 11 lines ]
+[14d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                   File: index.html                                                                            [3;1H(B[0m[36m< <!DOCTYPE html>
+[4d<html>
+[5d<body>
+[7d<h1>[39m(B[mMY HTTP[36m</h1>
+[8d<p>[39m(B[mArchana Rose Biju[36m</p>
+[9d<p>[39m(B[mS4 D[36m</p>
+[10d<p>[39m(B[mRoll No:11[36m</p>
+[12d</body>
+[13d</html>
+[42d[39m(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next
+[43d(B[0;7m^X(B[m Exit[43;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket
+[3d[C[C[1;134H(B[0;7mModified[3;2H(B[m[1P[1P[41d(B[0;7mFile Name to Write: index.html                                                                                                                 [42;16H(B[m             (B[0;7mM-D(B[m DOS Format[14X[42;57H(B[0;7mM-A(B[m Append[18X[42;85H(B[0;7mM-B(B[m Backup File[K[43;2H(B[0;7mC(B[m Cancel[16G             (B[0;7mM-M(B[m Mac Format[14X[43;57H(B[0;7mM-P(B[m Prepend[17X[43;85H(B[0;7m^T(B[m To Files[K[41;31H[?25l[41;62H[39;49m(B[m[1K (B[0;7m[ Wrote 11 lines ](B[m[K
+[3d[?12l[?25h[1;134H(B[0;7m        [42;16H^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket
+[3d[41d[J[43;143H[43;1H[?1049l
+[?1l>]0;cec@cec-HCL-Desktop: /var/www/html[01;32mcec@cec-HCL-Desktop[00m:[01;34m/var/www/html[00m$ 
+[K]0;cec@cec-HCL-Desktop: /var/www/html[01;32mcec@cec-HCL-Desktop[00m:[01;34m/var/www/html[00m$ exit
+exit
+
+Script done on Thursday 11 April 2019 11:55:02 AM IST
