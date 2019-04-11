@@ -1,0 +1,224 @@
+Script started on Thursday 11 April 2019 09:35:25 AM IST
+]0;s4d1@cec-HCL-Desktop: ~[01;32ms4d1@cec-HCL-Desktop[00m:[01;34m~[00m$ su - cec
+Password: 
+su: Authentication failure
+]0;s4d1@cec-HCL-Desktop: ~[01;32ms4d1@cec-HCL-Desktop[00m:[01;34m~[00m$ su -  [Kec[K[Kcec
+Password: 
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo [K]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo apt -[K]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo apt -[K[K-get update
+[sudo] password for cec: 
+Sorry, try again.
+[sudo] password for cec: 
+0% [Working]            Hit:1 http://packages.microsoft.com/repos/vscode stable InRelease
+0% [Waiting for headers] [Waiting for headers]0% [1 InRelease gpgv 3,182 B] [Waiting for headers] [Waiting for headers]                                                                         0% [Waiting for headers] [Waiting for headers]0% [Waiting for headers] [Waiting for headers]                                              Hit:2 http://security.ubuntu.com/ubuntu xenial-security InRelease
+                                              0% [Waiting for headers]0% [2 InRelease gpgv 109 kB] [Waiting for headers]                                                  0% [Waiting for headers]0% [Waiting for headers]                        Hit:3 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+                        0% [Working]0% [3 InRelease gpgv 247 kB] [Waiting for headers]                                                  0% [Waiting for headers]                        Hit:4 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease
+                        0% [Working]0% [4 InRelease gpgv 109 kB] [Waiting for headers]                                                  0% [Waiting for headers]                        Hit:5 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease
+                        0% [Working]0% [5 InRelease gpgv 107 kB]                            20% [Working]             Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 4%Reading package lists... 4%Reading package lists... 8%Reading package lists... 8%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 29%Reading package lists... 33%Reading package lists... 33%Reading package lists... 56%Reading package lists... 56%Reading package lists... 64%Reading package lists... 69%Reading package lists... 69%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 74%Reading package lists... 74%Reading package lists... 77%Reading package lists... 77%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 83%Reading package lists... 83%Reading package lists... 85%Reading package lists... 85%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 88%Reading package lists... 89%Reading package lists... 89%Reading package lists... 91%Reading package lists... 91%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ [K]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo apt-get upgrade
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+Calculating upgrade... 0%Calculating upgrade... 50%Calculating upgrade... Done
+The following package was automatically installed and is no longer required:
+  snapd-login-service
+Use 'sudo apt autoremove' to remove it.
+The following packages have been kept back:
+  libdrm-amdgpu1 libdrm2 libegl1-mesa libgbm1 libgl1-mesa-dri libgl1-mesa-glx
+  libglapi-mesa libinput10 libmm-glib0 libqmi-proxy libwayland-egl1-mesa
+  libxatracker2 linux-generic-hwe-16.04 linux-headers-generic-hwe-16.04
+  linux-image-generic-hwe-16.04 modemmanager ubuntu-minimal
+  xserver-xorg-core-hwe-16.04 xserver-xorg-hwe-16.04
+  xserver-xorg-input-evdev-hwe-16.04 xserver-xorg-input-synaptics-hwe-16.04
+  xserver-xorg-input-wacom-hwe-16.04 xserver-xorg-video-amdgpu-hwe-16.04
+  xserver-xorg-video-ati-hwe-16.04 xserver-xorg-video-fbdev-hwe-16.04
+  xserver-xorg-video-intel-hwe-16.04 xserver-xorg-video-nouveau-hwe-16.04
+  xserver-xorg-video-qxl-hwe-16.04 xserver-xorg-video-radeon-hwe-16.04
+  xserver-xorg-video-vesa-hwe-16.04 xserver-xorg-video-vmware-hwe-16.04
+The following packages will be upgraded:
+  apt apt-transport-https apt-utils code distro-info-data grub-common grub-pc
+  grub-pc-bin grub2-common libapt-inst2.0 libapt-pkg5.0 libsnapd-glib1 rsyslog
+13 upgraded, 0 newly installed, 0 to remove and 31 not upgraded.
+Need to get 53.2 MB of archives.
+After this operation, 3,870 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]            Get:1 http://packages.microsoft.com/repos/vscode stable/main amd64 code amd64 1.33.0-1554390824 [47.4 MB]
+0% [Waiting for headers] [1 code 1,448 B/47.4 MB 0%]                                                    1% [Waiting for headers] [1 code 398 kB/47.4 MB 1%]3% [Waiting for headers] [1 code 2,148 kB/47.4 MB 5%]6% [Waiting for headers] [1 code 3,990 kB/47.4 MB 8%]9% [Waiting for headers] [1 code 5,803 kB/47.4 MB 12%]                                                      Get:2 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libapt-pkg5.0 amd64 1.2.31 [712 kB]
+9% [2 libapt-pkg5.0 2,557 B/712 kB 0%] [1 code 6,117 kB/47.4 MB 13%]12% [2 libapt-pkg5.0 57.6 kB/712 kB 8%] [1 code 8,051 kB/47.4 MB 17%]                                                                     16% [2 libapt-pkg5.0 557 kB/712 kB 78%] [1 code 10.2 MB/47.4 MB 22%]                                                                    18% [1 code 10.4 MB/47.4 MB 22%]                                Get:3 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libapt-inst2.0 amd64 1.2.31 [55.6 kB]
+19% [3 libapt-inst2.0 7,856 B/55.6 kB 14%] [1 code 11.1 MB/47.4 MB 23%]                                                                       21% [1 code 11.1 MB/47.4 MB 23%]                                Get:4 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apt amd64 1.2.31 [1,087 kB]
+22% [4 apt 0 B/1,087 kB 0%] [1 code 11.8 MB/47.4 MB 25%]                                                        26% [1 code 12.7 MB/47.4 MB 27%]                                Get:5 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apt-utils amd64 1.2.31 [196 kB]
+27% [5 apt-utils 0 B/196 kB 0%] [1 code 13.1 MB/47.4 MB 28%]                                                            29% [Waiting for headers] [1 code 13.1 MB/47.4 MB 28%]                                                      Get:6 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 grub-pc amd64 2.02~beta2-36ubuntu3.21 [198 kB]
+30% [6 grub-pc 0 B/198 kB 0%] [1 code 13.6 MB/47.4 MB 29%]                                                          32% [1 code 13.7 MB/47.4 MB 29%]                                Get:7 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 grub-pc-bin amd64 2.02~beta2-36ubuntu3.21 [890 kB]
+32% [7 grub-pc-bin 0 B/890 kB 0%] [1 code 14.2 MB/47.4 MB 30%]                                                              37% [1 code 15.4 MB/47.4 MB 33%]                                Get:8 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 grub2-common amd64 2.02~beta2-36ubuntu3.21 [511 kB]
+38% [8 grub2-common 0 B/511 kB 0%] [1 code 16.0 MB/47.4 MB 34%]                                                               41% [1 code 16.7 MB/47.4 MB 35%]                                Get:9 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 grub-common amd64 2.02~beta2-36ubuntu3.21 [1,710 kB]
+42% [9 grub-common 1,448 B/1,710 kB 0%] [1 code 17.2 MB/47.4 MB 36%]                                                                    48% [Waiting for headers] [1 code 18.2 MB/47.4 MB 38%]                                                      Get:10 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 distro-info-data all 0.28ubuntu0.10 [4,580 B]
+49% [10 distro-info-data 1,113 B/4,580 B 24%] [1 code 18.8 MB/47.4 MB 40%]                                                                          50% [Waiting for headers] [1 code 18.8 MB/47.4 MB 40%]                                                      Get:11 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 rsyslog amd64 8.16.0-1ubuntu3.1 [366 kB]
+51% [11 rsyslog 4,006 B/366 kB 1%] [1 code 19.4 MB/47.4 MB 41%]53% [Waiting for headers] [1 code 19.5 MB/47.4 MB 41%]                                                                           4,176 kB/s 6s                                                                                                                                              Get:12 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apt-transport-https amd64 1.2.31 [26.6 kB]
+54% [12 apt-transport-https 1,112 B/26.6 kB 4%] [1 code 20.1 MB/47.4 MB 43%]                                                     4,176 kB/s 6s56% [1 code 20.2 MB/47.4 MB 43%]                                                                                                 4,176 kB/s 6s                                                                                                                                              Get:13 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libsnapd-glib1 amd64 1.47-0ubuntu0.16.04.0 [74.9 kB]
+57% [13 libsnapd-glib1 0 B/74.9 kB 0%] [1 code 20.7 MB/47.4 MB 44%]                                                              4,176 kB/s 6s58% [1 code 20.8 MB/47.4 MB 44%]                                                                                                 4,176 kB/s 6s61% [1 code 22.6 MB/47.4 MB 48%]                                                                                                 4,176 kB/s 5s64% [1 code 24.4 MB/47.4 MB 52%]                                                                                                 4,176 kB/s 5s67% [1 code 26.3 MB/47.4 MB 55%]                                                                                                 4,176 kB/s 5s70% [1 code 28.1 MB/47.4 MB 59%]                                                                                                 4,176 kB/s 4s72% [1 code 30.0 MB/47.4 MB 63%]                                                                                                 4,176 kB/s 4s75% [1 code 31.8 MB/47.4 MB 67%]                                                                                                 4,176 kB/s 3s78% [1 code 33.6 MB/47.4 MB 71%]                                                                                                 4,176 kB/s 3s81% [1 code 35.5 MB/47.4 MB 75%]                                                                                                 4,176 kB/s 2s83% [1 code 37.4 MB/47.4 MB 79%]                                                                                                 4,176 kB/s 2s86% [1 code 39.2 MB/47.4 MB 83%]                                                                                                 4,176 kB/s 1s89% [1 code 41.2 MB/47.4 MB 87%]                                                                                                 4,176 kB/s 1s92% [1 code 43.1 MB/47.4 MB 91%]                                                                                                 3,733 kB/s 1s95% [1 code 45.2 MB/47.4 MB 95%]                                                                                                 3,733 kB/s 0s98% [1 code 47.3 MB/47.4 MB 100%]                                                                                                3,733 kB/s 0s100% [Working]                                                                                                                   3,733 kB/s 0s                                                                                                                                              Fetched 53.2 MB in 13s (3,903 kB/s)
+Preconfiguring packages ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 192530 files and directories currently installed.)
+Preparing to unpack .../libapt-pkg5.0_1.2.31_amd64.deb ...
+Unpacking libapt-pkg5.0:amd64 (1.2.31) over (1.2.29ubuntu0.1) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Setting up libapt-pkg5.0:amd64 (1.2.31) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 192530 files and directories currently installed.)
+Preparing to unpack .../libapt-inst2.0_1.2.31_amd64.deb ...
+Unpacking libapt-inst2.0:amd64 (1.2.31) over (1.2.29ubuntu0.1) ...
+Preparing to unpack .../archives/apt_1.2.31_amd64.deb ...
+Unpacking apt (1.2.31) over (1.2.29ubuntu0.1) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up apt (1.2.31) ...
+Installing new version of config file /etc/apt/apt.conf.d/01autoremove ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 192539 files and directories currently installed.)
+Preparing to unpack .../apt-utils_1.2.31_amd64.deb ...
+Unpacking apt-utils (1.2.31) over (1.2.29ubuntu0.1) ...
+Preparing to unpack .../grub-pc_2.02~beta2-36ubuntu3.21_amd64.deb ...
+Unpacking grub-pc (2.02~beta2-36ubuntu3.21) over (2.02~beta2-36ubuntu3.20) ...
+Preparing to unpack .../grub-pc-bin_2.02~beta2-36ubuntu3.21_amd64.deb ...
+Unpacking grub-pc-bin (2.02~beta2-36ubuntu3.21) over (2.02~beta2-36ubuntu3.20) ...
+Preparing to unpack .../grub2-common_2.02~beta2-36ubuntu3.21_amd64.deb ...
+Unpacking grub2-common (2.02~beta2-36ubuntu3.21) over (2.02~beta2-36ubuntu3.20) ...
+Preparing to unpack .../grub-common_2.02~beta2-36ubuntu3.21_amd64.deb ...
+Unpacking grub-common (2.02~beta2-36ubuntu3.21) over (2.02~beta2-36ubuntu3.20) ...
+Preparing to unpack .../distro-info-data_0.28ubuntu0.10_all.deb ...
+Unpacking distro-info-data (0.28ubuntu0.10) over (0.28ubuntu0.9) ...
+Preparing to unpack .../rsyslog_8.16.0-1ubuntu3.1_amd64.deb ...
+Unpacking rsyslog (8.16.0-1ubuntu3.1) over (8.16.0-1ubuntu3) ...
+Preparing to unpack .../apt-transport-https_1.2.31_amd64.deb ...
+Unpacking apt-transport-https (1.2.31) over (1.2.29ubuntu0.1) ...
+Preparing to unpack .../code_1.33.0-1554390824_amd64.deb ...
+Unpacking code (1.33.0-1554390824) over (1.31.1-1549938243) ...
+Preparing to unpack .../libsnapd-glib1_1.47-0ubuntu0.16.04.0_amd64.deb ...
+Unpacking libsnapd-glib1:amd64 (1.47-0ubuntu0.16.04.0) over (1.33-0ubuntu0.16.04.1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for install-info (6.1.0.dfsg.1-5) ...
+Processing triggers for systemd (229-4ubuntu21.21) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+ureadahead will be reprofiled on next reboot
+Processing triggers for desktop-file-utils (0.22-1ubuntu5.2) ...
+Processing triggers for bamfdaemon (0.5.3~bzr0+16.04.20180209-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Processing triggers for gnome-menus (3.13.3-6ubuntu3.1) ...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Setting up libapt-inst2.0:amd64 (1.2.31) ...
+Setting up apt-utils (1.2.31) ...
+Setting up grub-common (2.02~beta2-36ubuntu3.21) ...
+update-rc.d: warning: start and stop actions are no longer supported; falling back to defaults
+Setting up grub2-common (2.02~beta2-36ubuntu3.21) ...
+Setting up grub-pc-bin (2.02~beta2-36ubuntu3.21) ...
+Setting up grub-pc (2.02~beta2-36ubuntu3.21) ...
+Installing for i386-pc platform.
+Installation finished. No error reported.
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-4.8.0-36-generic
+Found initrd image: /boot/initrd.img-4.8.0-36-generic
+Found memtest86+ image: /boot/memtest86+.elf
+Found memtest86+ image: /boot/memtest86+.bin
+Found Microsoft Windows XP Professional on /dev/sda1
+done
+Setting up distro-info-data (0.28ubuntu0.10) ...
+Setting up rsyslog (8.16.0-1ubuntu3.1) ...
+Installing new version of config file /etc/logrotate.d/rsyslog ...
+The user `syslog' is already a member of `adm'.
+Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Setting up apt-transport-https (1.2.31) ...
+Setting up code (1.33.0-1554390824) ...
+Setting up libsnapd-glib1:amd64 (1.47-0ubuntu0.16.04.0) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo apt search <package name>
+-su: syntax error near unexpected token `newline'
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo apt search <dpkg>
+-su: syntax error near unexpected token `newline'
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo apt search <dpkg>[C[1P>[1P>[1P>[1P>v>[1P>c>o>r>e>u>t>i>l>s>[C
+-su: syntax error near unexpected token `newline'
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo apt search <coreutils>[1P[1@-
+-su: syntax error near unexpected token `newline'
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo apt-search <coreutils>
+-su: syntax error near unexpected token `newline'
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ d[Ksudo apt-search <coreutils>[1@c[1@a[1@c[1@h[1@e[1@ 
+-su: syntax error near unexpected token `newline'
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo apt-cache search <coreutils>[C[K[1Pcoreutils
+bsdmainutils - collection of more utilities from FreeBSD
+coreutils - GNU core utilities
+libsemanage1 - SELinux policy management library
+realpath - coreutils realpath transitional package
+mktemp - coreutils mktemp transitional package
+policycoreutils - SELinux core policy utilities
+progress - Coreutils Progress Viewer (formerly known as 'cv')
+python-sepolgen - Python module used in SELinux policy generation
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ dpkg - s[K]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ dpkg - s[K[Ks coreutils
+Package: coreutils
+Essential: yes
+Status: install ok installed
+Priority: required
+Section: utils
+Installed-Size: 6248
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Multi-Arch: foreign
+Version: 8.25-2ubuntu3~16.04
+Replaces: mktemp, realpath, timeout
+Pre-Depends: libacl1 (>= 2.2.51-8), libattr1 (>= 1:2.4.46-8), libc6 (>= 2.17), libselinux1 (>= 2.1.13)
+Conflicts: timeout
+Description: GNU core utilities
+ This package contains the basic file, shell and text manipulation
+ utilities which are expected to exist on every operating system.
+ .
+ Specifically, this package includes:
+ arch base64 basename cat chcon chgrp chmod chown chroot cksum comm cp
+ csplit cut date dd df dir dircolors dirname du echo env expand expr
+ factor false flock fmt fold groups head hostid id install join link ln
+ logname ls md5sum mkdir mkfifo mknod mktemp mv nice nl nohup nproc numfmt
+ od paste pathchk pinky pr printenv printf ptx pwd readlink realpath rm
+ rmdir runcon sha*sum seq shred sleep sort split stat stty sum sync tac
+ tail tee test timeout touch tr true truncate tsort tty uname unexpand
+ uniq unlink users vdir wc who whoami yes
+Homepage: http://gnu.org/software/coreutils
+Original-Maintainer: Michael Stone <mstone@debian.org>
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo apt-get ib[Knstall coreutils
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+coreutils is already the newest version (8.25-2ubuntu3~16.04).
+The following package was automatically installed and is no longer required:
+  snapd-login-service
+Use 'sudo apt autoremove' to remove it.
+0 upgraded, 0 newly installed, 0 to remove and 31 not upgraded.
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ s[Ksudo apt-get install coreutils[K[K[K[K[K[K[K[K[K[K student
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package student
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo apt-get install student[K[K[Kentr[K[1Pstudent[1Pstudent[1Pstudent[1Pstudent[1Pstudent[1Ptudent[1Pstudent[1Pstudent[1Pstudent[1Pstudent studentrstudenttstudent[1Pstudent[1Pstudent[1Pstudenttstudent student[1Pstudent[1Pstudent[1Pstudent[1Pstudent[1Pstudent studentrstudentestudentmstudentostudentvstudentestudent student[C[C[C[C[C[C[C
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package student
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ [K]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ studfent[C[1Pent
+student: command not found
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ studentudo apt remove student[5@-get install[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo apt-get install coreutils[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pdpkg -s[C[C[C[C[C[C[C[C[C[C[14@sudo apt-cache search[C[C[C[C[C[C[C[C[C[C<coreutils>[6P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pdpkg>package name>[10P-get upgrade[1Pdate[1Ppython timeudp.py [3@client[C[C[C[C[1@3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo apt remove coreutils
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ libpango-1.0-0 : Depends: fontconfig (>= 2.1.91)
+ libqmenumodel0 : Depends: libqt5gui5 (>= 5.0.2) but it is not going to be installed or
+                           libqt5gui5-gles (>= 5.0.2) but it is not going to be installed
+ libqt5multimedia5 : Depends: libqt5gui5 (>= 5.2.0) but it is not going to be installed or
+                              libqt5gui5-gles (>= 5.2.0) but it is not going to be installed
+ libqt5multimediaquick-p5 : Depends: libqt5gui5 (>= 5.0.2) but it is not going to be installed or
+                                     libqt5gui5-gles (>= 5.0.2) but it is not going to be installed
+                            Depends: libqt5quick5 (>= 5.4.0) but it is not going to be installed or
+                                     libqt5quick5-gles (>= 5.4.0) but it is not going to be installed
+ libqt5printsupport5 : Depends: libqt5gui5 (>= 5.3.0) but it is not going to be installed or
+                                libqt5gui5-
