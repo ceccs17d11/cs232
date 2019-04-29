@@ -1,379 +1,0 @@
-Script started on 2019-04-29 10:56:58+0530
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > hello.pl
-use strict;
-use warnings;
-print " HELLO \n";
-^Z
-[1]+  Stopped                 cat > hello.pl
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > hello.pl[7Pperl -vscript ceccs17d11.sh[6Pceccs17d11.txt[3P.shprint "enter a and b:\n";[4Pscript ceccs17d11.txt[1Pudo apt install usestrict[13Puse[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[Kperl hello.pl
- HELLO 
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > add.pl
-use strict;
-use warnings;
-print"ENTER FIRST NUMBER / \n";
-$a=   ,  = < >;
-print"ENTER SECI OND NUMBER \N n";^[[6~      ;
-$a b = , < >;
-y $sum=$a+$b;^[[D^[[D^[[D             ;^[[D                 my $sum=$a+$b;
-print "sum=$sum\n";
-^Z
-[2]+  Stopped                 cat > add.pl
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > [K[K[K[K[K[Kperl add.pl
-ENTER FIRST NUMBER 
-ENTER SECOND NUMBER 
-Use of uninitialized value $b in addition (+) at add.pl line 7.
-Use of uninitialized value $a in addition (+) at add.pl line 7.
-sum=0
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > addition.pl
-use strict;
-use warnings;
-print"ENTER FIRST NUMBER \n";
-$a = <5>;
-print"ENTER SECOND NUMBER \n";     
-$b = <7>;
-my $sum=$a+$b;           
-print "sum=$sum\n";
-^Z
-[3]+  Stopped                 cat > addition.pl
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ perl addition.pl
-ENTER FIRST NUMBER 
-readline() on unopened filehandle 5 at addition.pl line 4.
-ENTER SECOND NUMBER 
-readline() on unopened filehandle 7 at addition.pl line 6.
-Use of uninitialized value $b in addition (+) at addition.pl line 7.
-Use of uninitialized value $a in addition (+) at addition.pl line 7.
-sum=0
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat addint.pl
-cat: addint.pl: No such file or directory
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > addint.pl
-use strict;
-use warnings;
-print"ENTER FIRST NUMBER \n";
-$a = <>;
-print"ENTER SECOND NUMBER \n";     
-$b = <>;
-my $sum=$a+$b;           
-print "sum=$sum\n";
-^Z
-[4]+  Stopped                 cat > addint.pl
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ perl addint.pl
-ENTER FIRST NUMBER 
-7
-ENTER SECOND NUMBER 
-9
-sum=16
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ [K]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ [K]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ [K]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ exit
-exit
-There are stopped jobs.
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ [K]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ my $sum=$a+$b;           
-my $sum=$a+$b;           
-print "sum=$sum\n";
-^[[Bmy: command not found
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ print "sum=$sum\n";
-^[[AError: no such file "sum=\n"
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ my $sum=$a+$b;           
-my: command not found
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ print "sum=$sum\n";
-Error: no such file "sum=\n"
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ print "sum=$sum\n";my $sum=$a+$b;           \[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcaty[K perl.txt
-Script started on 2019-04-29 10:56:58+0530
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > hello.pl
-use strict;
-use warnings;
-print " HELLO \n";
-^Z
-[1]+  Stopped                 cat > hello.pl
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > hello.pl[7Pperl -vscript ceccs17d11.sh[6Pceccs17d11.txt[3P.shprint "enter a and b:\n";[4Pscript ceccs17d11.txt[1Pudo apt install usestrict[13Puse[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[Kperl hello.pl
- HELLO 
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > add.pl
-use strict;
-use warnings;
-print"ENTER FIRST NUMBER / \n";
-$a=   ,  = < >;
-print"ENTER SECI OND NUMBER \N n";^[[6~      ;
-$a b = , < >;
-y $sum=$a+$b;^[[D^[[D^[[D             ;^[[D                 my $sum=$a+$b;
-print "sum=$sum\n";
-^Z
-[2]+  Stopped                 cat > add.pl
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > [K[K[K[K[K[Kperl add.pl
-ENTER FIRST NUMBER 
-ENTER SECOND NUMBER 
-Use of uninitialized value $b in addition (+) at add.pl line 7.
-Use of uninitialized value $a in addition (+) at add.pl line 7.
-sum=0
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > addition.pl
-use strict;
-use warnings;
-print"ENTER FIRST NUMBER \n";
-$a = <5>;
-print"ENTER SECOND NUMBER \n";     
-$b = <7>;
-my $sum=$a+$b;           
-print "sum=$sum\n";
-^Z
-[3]+  Stopped                 cat > addition.pl
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ perl addition.pl
-ENTER FIRST NUMBER 
-readline() on unopened filehandle 5 at addition.pl line 4.
-ENTER SECOND NUMBER 
-readline() on unopened filehandle 7 at addition.pl line 6.
-Use of uninitialized value $b in addition (+) at addition.pl line 7.
-Use of uninitialized value $a in addition (+) at addition.pl line 7.
-sum=0
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat addint.pl
-cat: addint.pl: No such file or directory
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > addint.pl
-use strict;
-use warnings;
-print"ENTER FIRST NUMBER \n";
-$a = <>;
-print"ENTER SECOND NUMBER \n";     
-$b = <>;
-my $sum=$a+$b;           
-print "sum=$sum\n";
-^Z
-[4]+  Stopped                 cat > addint.pl
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ perl addint.pl
-ENTER FIRST NUMBER 
-7
-ENTER SECOND NUMBER 
-9
-sum=16
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ [K]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ [K]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ [K]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ exit
-exit
-There are stopped jobs.
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ [K]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ my $sum=$a+$b;           
-my $sum=$a+$b;           
-print "sum=$sum\n";
-^[[Bmy: command not found
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ print "sum=$sum\n";
-^[[AError: no such file "sum=\n"
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ my $sum=$a+$b;           
-my: command not found
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ print "sum=$sum\n";
-Error: no such file "sum=\n"
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ print "sum=$sum\n";]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ 
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat perl.txt
-Script started on 2019-04-29 10:56:58+0530
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > hello.pl
-use strict;
-use warnings;
-print " HELLO \n";
-^Z
-[1]+  Stopped                 cat > hello.pl
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > hello.pl[7Pperl -vscript ceccs17d11.sh[6Pceccs17d11.txt[3P.shprint "enter a and b:\n";[4Pscript ceccs17d11.txt[1Pudo apt install usestrict[13Puse[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[Kperl hello.pl
- HELLO 
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > add.pl
-use strict;
-use warnings;
-print"ENTER FIRST NUMBER / \n";
-$a=   ,  = < >;
-print"ENTER SECI OND NUMBER \N n";^[[6~      ;
-$a b = , < >;
-y $sum=$a+$b;^[[D^[[D^[[D             ;^[[D                 my $sum=$a+$b;
-print "sum=$sum\n";
-^Z
-[2]+  Stopped                 cat > add.pl
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > [K[K[K[K[K[Kperl add.pl
-ENTER FIRST NUMBER 
-ENTER SECOND NUMBER 
-Use of uninitialized value $b in addition (+) at add.pl line 7.
-Use of uninitialized value $a in addition (+) at add.pl line 7.
-sum=0
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > addition.pl
-use strict;
-use warnings;
-print"ENTER FIRST NUMBER \n";
-$a = <5>;
-print"ENTER SECOND NUMBER \n";     
-$b = <7>;
-my $sum=$a+$b;           
-print "sum=$sum\n";
-^Z
-[3]+  Stopped                 cat > addition.pl
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ perl addition.pl
-ENTER FIRST NUMBER 
-readline() on unopened filehandle 5 at addition.pl line 4.
-ENTER SECOND NUMBER 
-readline() on unopened filehandle 7 at addition.pl line 6.
-Use of uninitialized value $b in addition (+) at addition.pl line 7.
-Use of uninitialized value $a in addition (+) at addition.pl line 7.
-sum=0
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat addint.pl
-cat: addint.pl: No such file or directory
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > addint.pl
-use strict;
-use warnings;
-print"ENTER FIRST NUMBER \n";
-$a = <>;
-print"ENTER SECOND NUMBER \n";     
-$b = <>;
-my $sum=$a+$b;           
-print "sum=$sum\n";
-^Z
-[4]+  Stopped                 cat > addint.pl
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ perl addint.pl
-ENTER FIRST NUMBER 
-7
-ENTER SECOND NUMBER 
-9
-sum=16
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ [K]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ [K]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ [K]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ exit
-exit
-There are stopped jobs.
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ [K]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ my $sum=$a+$b;           
-my $sum=$a+$b;           
-print "sum=$sum\n";
-^[[Bmy: command not found
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ print "sum=$sum\n";
-^[[AError: no such file "sum=\n"
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ my $sum=$a+$b;           
-my: command not found
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ print "sum=$sum\n";
-Error: no such file "sum=\n"
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ print "sum=$sum\n";my $sum=$a+$b;           \[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcaty[K perl.txt
-Script started on 2019-04-29 10:56:58+0530
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > hello.pl
-use strict;
-use warnings;
-print " HELLO \n";
-^Z
-[1]+  Stopped                 cat > hello.pl
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > hello.pl[7Pperl -vscript ceccs17d11.sh[6Pceccs17d11.txt[3P.shprint "enter a and b:\n";[4Pscript ceccs17d11.txt[1Pudo apt install usestrict[13Puse[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[Kperl hello.pl
- HELLO 
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > add.pl
-use strict;
-use warnings;
-print"ENTER FIRST NUMBER / \n";
-$a=   ,  = < >;
-print"ENTER SECI OND NUMBER \N n";^[[6~      ;
-$a b = , < >;
-y $sum=$a+$b;^[[D^[[D^[[D             ;^[[D                 my $sum=$a+$b;
-print "sum=$sum\n";
-^Z
-[2]+  Stopped                 cat > add.pl
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > [K[K[K[K[K[Kperl add.pl
-ENTER FIRST NUMBER 
-ENTER SECOND NUMBER 
-Use of uninitialized value $b in addition (+) at add.pl line 7.
-Use of uninitialized value $a in addition (+) at add.pl line 7.
-sum=0
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > addition.pl
-use strict;
-use warnings;
-print"ENTER FIRST NUMBER \n";
-$a = <5>;
-print"ENTER SECOND NUMBER \n";     
-$b = <7>;
-my $sum=$a+$b;           
-print "sum=$sum\n";
-^Z
-[3]+  Stopped                 cat > addition.pl
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ perl addition.pl
-ENTER FIRST NUMBER 
-readline() on unopened filehandle 5 at addition.pl line 4.
-ENTER SECOND NUMBER 
-readline() on unopened filehandle 7 at addition.pl line 6.
-Use of uninitialized value $b in addition (+) at addition.pl line 7.
-Use of uninitialized value $a in addition (+) at addition.pl line 7.
-sum=0
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat addint.pl
-cat: addint.pl: No such file or directory
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > addint.pl
-use strict;
-use warnings;
-print"ENTER FIRST NUMBER \n";
-$a = <>;
-print"ENTER SECOND NUMBER \n";     
-$b = <>;
-my $sum=$a+$b;           
-print "sum=$sum\n";
-^Z
-[4]+  Stopped                 cat > addint.pl
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ perl addint.pl
-ENTER FIRST NUMBER 
-7
-ENTER SECOND NUMBER 
-9
-sum=16
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ [K]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ [K]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ [K]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ exit
-exit
-There are stopped jobs.
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ [K]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ my $sum=$a+$b;           
-my $sum=$a+$b;           
-print "sum=$sum\n";
-^[[Bmy: command not found
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ print "sum=$sum\n";
-^[[AError: no such file "sum=\n"
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ my $sum=$a+$b;           
-my: command not found
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ print "sum=$sum\n";
-Error: no such file "sum=\n"
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ print "sum=$sum\n";]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ 
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat perl.txt
-Script started on 2019-04-29 10:56:58+0530
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > hello.pl
-use strict;
-use warnings;
-print " HELLO \n";
-^Z
-[1]+  Stopped                 cat > hello.pl
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > hello.pl[7Pperl -vscript ceccs17d11.sh[6Pceccs17d11.txt[3P.shprint "enter a and b:\n";[4Pscript ceccs17d11.txt[1Pudo apt install usestrict[13Puse[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[Kperl hello.pl
- HELLO 
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > add.pl
-use strict;
-use warnings;
-print"ENTER FIRST NUMBER / \n";
-$a=   ,  = < >;
-print"ENTER SECI OND NUMBER \N n";^[[6~      ;
-$a b = , < >;
-y $sum=$a+$b;^[[D^[[D^[[D             ;^[[D                 my $sum=$a+$b;
-print "sum=$sum\n";
-^Z
-[2]+  Stopped                 cat > add.pl
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > [K[K[K[K[K[Kperl add.pl
-ENTER FIRST NUMBER 
-ENTER SECOND NUMBER 
-Use of uninitialized value $b in addition (+) at add.pl line 7.
-Use of uninitialized value $a in addition (+) at add.pl line 7.
-sum=0
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > addition.pl
-use strict;
-use warnings;
-print"ENTER FIRST NUMBER \n";
-$a = <5>;
-print"ENTER SECOND NUMBER \n";     
-$b = <7>;
-my $sum=$a+$b;           
-print "sum=$sum\n";
-^Z
-[3]+  Stopped                 cat > addition.pl
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ perl addition.pl
-ENTER FIRST NUMBER 
-readline() on unopened filehandle 5 at addition.pl line 4.
-ENTER SECOND NUMBER 
-readline() on unopened filehandle 7 at addition.pl line 6.
-Use of uninitialized value $b in addition (+) at addition.pl line 7.
-Use of uninitialized value $a in addition (+) at addition.pl line 7.
-sum=0
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat addint.pl
-cat: addint.pl: No such file or directory
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ cat > addint.pl
-use strict;
-use warnings;
-print"ENTER FIRST NUMBER \n";
-$a = <>;
-print"ENTER SECOND NUMBER \n";     
-$b = <>;
-my $sum=$a+$b;           
-print "sum=$sum\n";
-^Z
-[4]+  Stopped                 cat > addint.pl
-]0;cec-lab2@ceclab2-System21: ~[01;32mcec-lab2@ceclab2-System21[00m:[01;34m~[00m$ perl addint.pl
-ENTER FIRST NUMBER 
-7
-ENTER SECOND NUMBER 
-9
-sum=16
-]0;cec-lab2@cec
