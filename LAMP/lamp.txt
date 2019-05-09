@@ -44,7 +44,7 @@ Priority: optional
 Section: httpd
 Installed-Size: 490
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Architecture: amd64
+  Architecture: amd64
 Version: 2.4.18-2ubuntu3.10
 Replaces: apache2.2-bin, apache2.2-common
 Provides: httpd, httpd-cgi
