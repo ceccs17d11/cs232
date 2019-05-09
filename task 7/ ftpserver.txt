@@ -1,0 +1,620 @@
+Script started on Thursday 11 April 2019 11:23:34 AM IST
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ 
+[K]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ exitsudo gedit /etc/nginx/sites-enabled/default[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kapt-get install vsftpd
+[sudo] password for cec: 
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following package was automatically installed and is no longer required:
+  snapd-login-service
+Use 'sudo apt autoremove' to remove it.
+The following NEW packages will be installed:
+  vsftpd
+0 upgraded, 1 newly installed, 0 to remove and 31 not upgraded.
+Need to get 115 kB of archives.
+After this operation, 336 kB of additional disk space will be used.
+
+0% [Working]
+            
+Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 vsftpd amd64 3.0.3-3ubuntu2 [115 kB]
+
+3% [1 vsftpd 3,757 B/115 kB 3%]
+                               
+100% [Working]
+              
+Fetched 115 kB in 0s (8,189 kB/s)
+Preconfiguring packages ...
+Selecting previously unselected package vsftpd.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 192646 files and directories currently installed.)
+Preparing to unpack .../vsftpd_3.0.3-3ubuntu2_amd64.deb ...
+Unpacking vsftpd (3.0.3-3ubuntu2) ...
+Processing triggers for systemd (229-4ubuntu21.21) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up vsftpd (3.0.3-3ubuntu2) ...
+Processing triggers for systemd (229-4ubuntu21.21) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo nano /etc/vsftpd.conf
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ]
+[3d(B[m[22;32H(B[0;7m[ Read 155 lines ]
+[3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3            File: /etc/vsftpd.conf                              [3;1H(B[m# Example config file /etc/vsftpd.conf
+[4d#[5d# The default compiled in settings are fairly paranoid. This sample file
+[6d# loosens things up a bit, to make the ftp daemon more usable.
+[7d# Please see vsftpd.conf.5 for all compiled in defaults.
+[8d#[9d# READ THIS: This example file is NOT an exhaustive list of vsftpd options.
+[10d# Please read the vsftpd.conf.5 manual page to get a full idea of vsftpd's
+[11d# capabilities.
+[12d#[13d#[14d# Run standalone?  vsftpd can run either from an inetd or as a standalone
+[15d# daemon started from an initscript.
+[16dlisten=NO
+[17d#[18d# This directive enables listening on IPv6 sockets. By default, listening
+[19d# on the IPv6 "any" address (::) will accept connections from both IPv6
+[20d# and IPv4 clients. It is not necessary to listen on *both* IPv4 and IPv6
+[21d# sockets. If you want that (perhaps because you want to listen on specific
+[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[3d[6d[9d[24;1H[?1049l
+[?1l>[?1049h[1;25r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.5.3            File: /etc/vsftpd.conf                              [3;1H(B[m# Example config file /etc/vsftpd.conf
+[4d#[5d# The default compiled in settings are fairly paranoid. This sample file
+[6d# loosens things up a bit, to make the ftp daemon more usable.
+[7d# Please see vsftpd.conf.5 for all compiled in defaults.
+[8d#[9d# READ THIS: This example file is NOT an exhaustive list of vsftpd options.
+[10d# Please read the vsftpd.conf.5 manual page to get a full idea of vsftpd's
+[11d# capabilities.
+[12d#[13d#[14d# Run standalone?  vsftpd can run either from an inetd or as a standalone
+[15d# daemon started from an initscript.
+[16dlisten=NO
+[17d#[18d# This directive enables listening on IPv6 sockets. By default, listening
+[19d# on the IPv6 "any" address (::) will accept connections from both IPv6
+[20d# and IPv4 clients. It is not necessary to listen on *both* IPv4 and IPv6
+[21d# sockets. If you want that (perhaps because you want to listen on specific[22;32H(B[0;7m[ Read 155 lines ]
+[23d^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[9d[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.5.3            File: /etc/vsftpd.conf                              [3;1H(B[m# Example config file /etc/vsftpd.conf
+[4d#[5d# The default compiled in settings are fairly paranoid. This sample file
+[6d# loosens things up a bit, to make the ftp daemon more usable.
+[7d# Please see vsftpd.conf.5 for all compiled in defaults.
+[8d#[9d# READ THIS: This example file is NOT an exhaustive list of vsftpd options.
+[10d# Please read the vsftpd.conf.5 manual page to get a full idea of vsftpd's
+[11d# capabilities.
+[12d#[13d#[14d# Run standalone?  vsftpd can run either from an inetd or as a standalone
+[15d# daemon started from an initscript.
+[16dlisten=NO
+[17d#[18d# This directive enables listening on IPv6 sockets. By default, listening
+[19d# on the IPv6 "any" address (::) will accept connections from both IPv6
+[20d# and IPv4 clients. It is not necessary to listen on *both* IPv4 and IPv6
+[21d# sockets. If you want that (perhaps because you want to listen on specific[22;32H(B[0;7m[ Read 155 lines ]
+[23d^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[9d[22d# addresses) then you must run two copies of vsftpd with two configuration
+[23d[K[24;2H(B[0;7mG(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[K
+[25d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[9d[25;1H[?1049l
+[?1l>[?1049h[1;43r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.5.3            File: /etc/vsftpd.conf                              
+[3d(B[m# Example config file /etc/vsftpd.conf
+[4d#[5d# The default compiled in settings are fairly paranoid. This sample file
+[6d# loosens things up a bit, to make the ftp daemon more usable.
+[7d# Please see vsftpd.conf.5 for all compiled in defaults.
+[8d#[9d# READ THIS: This example file is NOT an exhaustive list of vsftpd options.
+[10d# Please read the vsftpd.conf.5 manual page to get a full idea of vsftpd's
+[11d# capabilities.
+[12d#[13d#[14d# Run standalone?  vsftpd can run either from an inetd or as a standalone
+[15d# daemon started from an initscript.
+[16dlisten=NO
+[17d#[18d# This directive enables listening on IPv6 sockets. By default, listening
+[19d# on the IPv6 "any" address (::) will accept connections from both IPv6
+[20d# and IPv4 clients. It is not necessary to listen on *both* IPv4 and IPv6
+[21d# sockets. If you want that (perhaps because you want to listen on specific
+[22d# addresses) then you must run two copies of vsftpd with two configuration
+[24d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[25d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[9d[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.5.3            File: /etc/vsftpd.conf                              
+[3d(B[m# Example config file /etc/vsftpd.conf
+[4d#[5d# The default compiled in settings are fairly paranoid. This sample file
+[6d# loosens things up a bit, to make the ftp daemon more usable.
+[7d# Please see vsftpd.conf.5 for all compiled in defaults.
+[8d#[9d# READ THIS: This example file is NOT an exhaustive list of vsftpd options.
+[10d# Please read the vsftpd.conf.5 manual page to get a full idea of vsftpd's
+[11d# capabilities.
+[12d#[13d#[14d# Run standalone?  vsftpd can run either from an inetd or as a standalone
+[15d# daemon started from an initscript.
+[16dlisten=NO
+[17d#[18d# This directive enables listening on IPv6 sockets. By default, listening
+[19d# on the IPv6 "any" address (::) will accept connections from both IPv6
+[20d# and IPv4 clients. It is not necessary to listen on *both* IPv4 and IPv6
+[21d# sockets. If you want that (perhaps because you want to listen on specific
+[22d# addresses) then you must run two copies of vsftpd with two configuration
+[24d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[25d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[9d[1;29H(B[0;7m                     File: /etc/vsftpd.conf[1;81H                                                               [23;1H(B[m# files.
+[24dlisten_ipv6=YES[K
+[25d#[K[26d# Allow anonymous FTP? (Disabled by default).
+[27danonymous_enable=NO
+[28d#[29d# Uncomment this to allow local users to log in.
+[30dlocal_enable=YES
+[31d#[32d# Uncomment this to enable any form of FTP write command.
+[33d#write_enable=YES
+[34d#[35d# Default umask for local users is 077. You may wish to change this to 022,
+[36d# if your users expect that (022 is used by most other ftpd's)
+[37d#local_umask=022
+[38d#[39d# Uncomment this to allow the anonymous FTP user to upload files. This only
+[40d# has an effect if the above global write enable is activated. Also, you will
+[42d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next
+[43d(B[0;7m^X(B[m Exit[43;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket
+[9d[4d[A[8d[13d[18d[23d[28d[33d[38d[3;41r[41;1H[20S[1;43r[21;1H# obviously need to create a directory writable by the FTP user.
+[22d#anon_upload_enable=YES
+[23d#[24d# Uncomment this if you want the anonymous FTP user to be able to create
+[25d# new directories.
+[26d#anon_mkdir_write_enable=YES
+[27d#[28d# Activate directory messages - messages given to remote users when they
+[29d# go into a certain directory.
+[30ddirmessage_enable=YES
+[31d#[32d# If enabled, vsftpd will display directory listings with the time
+[33d# in  your  local  time  zone.  The default is to display GMT. The
+[34d# times returned by the MDTM FTP command are also affected by this
+[35d# option.
+[36duse_localtime=YES
+[37d#[38d# Activate logging of uploads/downloads.
+[39dxferlog_enable=YES
+[40d#[23d[28d[33d[38d[3;41r[41;1H[20S[1;43r[21;1H# Make sure PORT transfer connections originate from port 20 (ftp-data).
+[22dconnect_from_port_20=YES
+[23d#[24d# If you want, you can arrange for uploaded anonymous files to be owned by
+[25d# a different user. Note! Using "root" for uploaded files is not
+[26d# recommended!
+[27d#chown_uploads=YES
+[28d#chown_username=whoever
+[29d#[30d# You may override where the log file goes if you like. The default is shown
+[31d# below.
+[32d#xferlog_file=/var/log/vsftpd.log
+[33d#[34d# If you want, you can have your log file in standard ftpd xferlog format.
+[35d# Note that the default log file location is /var/log/xferlog in this case.
+[36d#xferlog_std_format=YES
+[37d#[38d# You may change the default value for timing out an idle session.
+[39d#idle_session_timeout=600
+[40d#[23d[28d[33d[38d[3;41r[41;1H[20S[1;43r[21;1H# You may change the default value for timing out a data connection.
+[22d#data_connection_timeout=120
+[23d#[24d# It is recommended that you define on your system a unique user which the
+[25d# ftp server can use as a totally isolated and unprivileged user.
+[26d#nopriv_user=ftpsecure
+[27d#[28d# Enable this and the server will recognise asynchronous ABOR requests. Not
+[29d# recommended for security (the code is non-trivial). Not enabling it,
+[30d# however, may confuse older FTP clients.
+[31d#async_abor_enable=YES
+[32d#[33d# By default the server will pretend to allow ASCII mode but in fact ignore
+[34d# the request. Turn on the below options to have the server actually do ASCII
+[35d# mangling on files when in ASCII mode.
+[36d# Beware that on some FTP servers, ASCII support allows a denial of service
+[37d# attack (DoS) via the command "SIZE /big/file" in ASCII mode. vsftpd
+[38d# predicted this attack and has always been safe, reporting the size of the
+[39d# raw file.
+[40d# ASCII mangling is a horrible feature of the protocol.
+[23d[28d[33d[38d[3;41r[41;1H[20S[1;43r[21;1H#ascii_upload_enable=YES
+[22d#ascii_download_enable=YES
+[23d#[24d# You may fully customise the login banner string:
+[25d#ftpd_banner=Welcome to blah FTP service.
+[26d#[27d# You may specify a file of disallowed anonymous e-mail addresses. Apparently
+[28d# useful for combatting certain DoS attacks.
+[29d#deny_email_enable=YES
+[30d# (default follows)
+[31d#banned_email_file=/etc/vsftpd.banned_emails
+[32d#[33d# You may restrict local users to their home directories.  See the FAQ for
+[34d# the possible risks in this before using chroot_local_user or
+[35d# chroot_list_enable below.
+[36d#chroot_local_user=YES
+[37d#[38d# You may specify an explicit list of local users to chroot() to their home
+[39d# directory. If chroot_local_user is YES, then this list becomes a list of
+[40d# users to NOT chroot().
+[23d[28d[33d[38d[3;41r[41;1H[20S[1;43r[21;1H# (Warning! chroot'ing can be very dangerous. If using chroot, make sure that
+[22d# the user does not have write access to the top level directory within the
+[23d# chroot)
+[24d#chroot_local_user=YES
+[25d#chroot_list_enable=YES
+[26d# (default follows)
+[27d#chroot_list_file=/etc/vsftpd.chroot_list
+[28d#[29d# You may activate the "-R" option to the builtin ls. This is disabled by
+[30d# default to avoid remote users being able to cause excessive I/O on large
+[31d# sites. However, some broken FTP clients such as "ncftp" and "mirror" assume
+[32d# the presence of the "-R" option, so there is a strong case for enabling it.
+[33d#ls_recurse_enable=YES
+[34d#[35d# Customization
+[36d#[37d# Some of vsftpd's settings don't fit the filesystem layout by
+[38d# default.
+[39d#[40d# This option should be the name of a directory which is empty.  Also, the
+[23d[28d[33d[38d[3;41r[41;1H[20S[1;43r[21;1H# directory should not be writable by the ftp user. This directory is used
+[22d# as a secure chroot() jail at times vsftpd does not require filesystem
+[23d# access.
+[24dsecure_chroot_dir=/var/run/vsftpd/empty
+[25d#[26d# This string is the name of the PAM service vsftpd will use.
+[27dpam_service_name=vsftpd
+[28d#[29d# This option specifies the location of the RSA certificate to use for SSL
+[30d# encrypted connections.
+[31drsa_cert_file=/etc/ssl/certs/ssl-cert-snakeoil.pem
+[32drsa_private_key_file=/etc/ssl/private/ssl-cert-snakeoil.key
+[33dssl_enable=NO
+[35d#[36d# Uncomment this to indicate that vsftpd use a utf8 filesystem.
+[37d#utf8_filesystem=YES
+[23d[28d[33d[38d[33d[28d[29d[30d[31d[32d[33d[34d[35d[36d[37d[38d[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[2;40r[2;1H[20T[1;43r[3;1H#[4d# You may fully customise the login banner string:
+[5d#ftpd_banner=Welcome to blah FTP service.
+[6d#[7d# You may specify a file of disallowed anonymous e-mail addresses. Apparently
+[8d# useful for combatting certain DoS attacks.
+[9d#deny_email_enable=YES
+[10d# (default follows)
+[11d#banned_email_file=/etc/vsftpd.banned_emails
+[12d#[13d# You may restrict local users to their home directories.  See the FAQ for
+[14d# the possible risks in this before using chroot_local_user or
+[15d# chroot_list_enable below.
+[16d#chroot_local_user=YES
+[17d#[18d# You may specify an explicit list of local users to chroot() to their home
+[19d# directory. If chroot_local_user is YES, then this list becomes a list of
+[20d# users to NOT chroot().
+[21d# (Warning! chroot'ing can be very dangerous. If using chroot, make sure that
+[22d# the user does not have write access to the top level directory within the
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[41d(B[0;7mFile to insert [from ./] :                                                                                                                     [42;16H(B[m[32X[42;48H(B[0;7m^X(B[m Execute Command[29X[42;95H(B[0;7m^T(B[m To Files[K[43;2H(B[0;7mC(B[m Cancel[16G[32X[43;48H(B[0;7mM-F(B[m New Buffer[K[41;28H
+(B[0;7mCommand to execute [from ./] :[42;48H(B[m[18X[42;72H(B[0;7m^X(B[m Read File[K[43;10H[43;48H[14X[43;72H(B[0;7mM-F(B[m New Buffer[41;32H[?25l[41;65H[1K (B[0;7m[ Cancelled ](B[m[K
+[5d[?12l[?25h[42;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next[43;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket
+[5d[A[A[2;40r[2;1H[20T[1;43r[3;1H#[4d# It is recommended that you define on your system a unique user which the
+[5d# ftp server can use as a totally isolated and unprivileged user.
+[6d#nopriv_user=ftpsecure
+[7d#[8d# Enable this and the server will recognise asynchronous ABOR requests. Not
+[9d# recommended for security (the code is non-trivial). Not enabling it,
+[10d# however, may confuse older FTP clients.
+[11d#async_abor_enable=YES
+[12d#[13d# By default the server will pretend to allow ASCII mode but in fact ignore
+[14d# the request. Turn on the below options to have the server actually do ASCII
+[15d# mangling on files when in ASCII mode.
+[16d# Beware that on some FTP servers, ASCII support allows a denial of service
+[17d# attack (DoS) via the command "SIZE /big/file" in ASCII mode. vsftpd
+[18d# predicted this attack and has always been safe, reporting the size of the
+[19d# raw file.
+[20d# ASCII mangling is a horrible feature of the protocol.
+[21d#ascii_upload_enable=YES
+[22d#ascii_download_enable=YES
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A7[5;40r8M[1;43r[1;134H(B[0;7mModified
+[6d(B[m#[7d[1P[8d[41d[K[7d#nopriv_user=ftpsecure
+#[8d[9d[10d[11d[12d[13d[14d[15d[16d[17d[18d[19d[20d[21d[22d[23d[24d[25d[26d[A[A[A#[1P[A#[1P[23d[24d[25d[26d[27d[A#[1Pftpd_banner=Welcome to blah [1P[1P[1P[1Pm FTP service.[26;25H  FTP service.[26;26Hy FTP service.[26;27H  FTP service.[26;28H[1P[1P[1Py FTP service.[26;26H  FTP service.[26;27H[25;51H
+[A#[23;26H[A[21;35H[20;12H[19;35H[A[A[A[A[A
+[A#[12;23H[11;35H[A[A
+[A#[7;23H[6;35H
+[A[4;35H
+[A#[2;40r[2;1H[20T[1;43r[3;1H#[4d# If you want, you can arrange for uploaded anonymous files to be owned by
+[5d# a different user. Note! Using "root" for uploaded files is not
+[6d# recommended!
+[7d#chown_uploads=YES
+[8d#chown_username=whoever
+[9d#[10d# You may override where the log file goes if you like. The default is shown
+[11d# below.
+[12d#xferlog_file=/var/log/vsftpd.log
+[13d#[14d# If you want, you can have your log file in standard ftpd xferlog format.
+[15d# Note that the default log file location is /var/log/xferlog in this case.
+[16d#xferlog_std_format=YES
+[17d#[18d# You may change the default value for timing out an idle session.
+[19d#idle_session_timeout=600
+[20d#[21d# You may change the default value for timing out a data connection.
+[22d#data_connection_timeout=120[21;35H
+[A#[19;26H[18;35H
+[A#[16;24H[15;35H[A
+[A#[12;34H[11;9H[10;35H
+[A#[8;24H[7;19H[A[5;35H[A
+[A#[2;40r[2;1H[20T[1;43r[3;1H#[4d# Uncomment this if you want the anonymous FTP user to be able to create
+[5d# new directories.
+[6d#anon_mkdir_write_enable=YES
+[7d#[8d# Activate directory messages - messages given to remote users when they
+[9d# go into a certain directory.
+[10ddirmessage_enable=YES
+[11d#[12d# If enabled, vsftpd will display directory listings with the time
+[13d# in  your  local  time  zone.  The default is to display GMT. The
+[14d# times returned by the MDTM FTP command are also affected by this
+[15d# option.
+[16duse_localtime=YES
+[17d#[18d# Activate logging of uploads/downloads.
+[19dxferlog_enable=YES
+[20d#[21d# Make sure PORT transfer connections originate from port 20 (ftp-data).
+[22dconnect_from_port_20=YES[21;35H
+[A#[19;19H[18;35H
+[A#[16;18H[15;10H[14;35H[A[A
+[A#[10;22H[9;31H[A- me
+[A#[6;29H[5;19H[4;35H
+[A#[2;40r[2;1H[20T[1;43r[3;1H# files.
+[4dlisten_ipv6=YES
+[5d#[6d# Allow anonymous FTP? (Disabled by default).
+[7danonymous_enable=NO
+[8d#[9d# Uncomment this to allow local users to log in.
+[10dlocal_enable=YES
+[11d#[12d# Uncomment this to enable any form of FTP write command.
+[13d#write_enable=YES
+[14d#[15d# Default umask for local users is 077. You may wish to change this to 022,
+[16d# if your users expect that (022 is used by most other ftpd's)
+[17d#local_umask=022
+[18d#[19d# Uncomment this to allow the anonymous FTP user to upload files. This only
+[20d# has an effect if the above global write enable is activated. Also, you will
+[21d# obviously need to create a directory writable by the FTP user.
+[22d#anon_upload_enable=YES[21;35H[A[A
+[A#[17;17H[16;35H[A
+[A#[13;18H[12;35H
+[A#[10;17H[9;35H
+[A#[7;20H[6;35H
+[A#[4;16H[3;9H[2;40r[2;1H[20T[1;43r[3;1H# Example config file /etc/vsftpd.conf
+[4d#[5d# The default compiled in settings are fairly paranoid. This sample file
+[6d# loosens things up a bit, to make the ftp daemon more usable.
+[7d# Please see vsftpd.conf.5 for all compiled in defaults.
+[8d#[9d# READ THIS: This example file is NOT an exhaustive list of vsftpd options.
+[10d# Please read the vsftpd.conf.5 manual page to get a full idea of vsftpd's
+[11d# capabilities.
+[12d#[13d#[14d# Run standalone?  vsftpd can run either from an inetd or as a standalone
+[15d# daemon started from an initscript.
+[16dlisten=NO
+[17d#[18d# This directive enables listening on IPv6 sockets. By default, listening
+[19d# on the IPv6 "any" address (::) will accept connections from both IPv6
+[20d# and IPv4 clients. It is not necessary to listen on *both* IPv4 and IPv6
+[21d# sockets. If you want that (perhaps because you want to listen on specific
+[22d# addresses) then you must run two copies of vsftpd with two configuration[22;35H[A[A[A[A
+[A#[16;10H[15;35H[A
+[A#[14;35H[15d[16;10H
+[17d#[18;35H[19d[20d[21d[22d[23;9H[24;16H
+[25d#[26;35H[27;20H
+[28d#[29;35H[30;17H
+[31d#[32;35H[33;18H
+[34d#[35;35H[36d[37;17H
+[38d#[39;35H[40d7[3;41r8
+[41d[20S[1;43r[21;1H# obviously need to create a directory writable by the FTP user.
+[22d#anon_upload_enable=YES
+[23d#[24d# Uncomment this if you want the anonymous FTP user to be able to create
+[25d# new directories.
+[26d#anon_mkdir_write_enable=YES
+[27d#[28d# Activate directory messages - messages given to remote users when they
+[29d# go into a certain directory.
+[30ddirmessage_enable=YES
+[31d#[32d# If enabled, vsftpd will display directory listings with the time
+[33d# in  your  local  time  zone.  The default is to display GMT. The
+[34d# times returned by the MDTM FTP command are also affected by this
+[35d# option.
+[36duse_localtime=YES
+[37d#[38d# Activate logging of uploads/downloads.
+[39dxferlog_enable=YES
+[40d#[21;35H[22;24H
+[23d#[24;35H[25;19H[26;29H
+[27d#[28;35H[29;31H[30;22H
+[31d#[32;35H[33d[34d[35;10H[36;18H
+[37d#[38;35H[39;19H
+[40d#7[3;41r8[41d[20S[1;43r[21;1H# Make sure PORT transfer connections originate from port 20 (ftp-data).
+[22dconnect_from_port_20=YES
+[23d#[24d# If you want, you can arrange for uploaded anonymous files to be owned by
+[25d# a different user. Note! Using "root" for uploaded files is not
+[26d# recommended!
+[27d#chown_uploads=YES
+[28d#chown_username=whoever
+[29d#[30d# You may override where the log file goes if you like. The default is shown
+[31d# below.
+[32d#xferlog_file=/var/log/vsftpd.log
+[33d#[34d# If you want, you can have your log file in standard ftpd xferlog format.
+[35d# Note that the default log file location is /var/log/xferlog in this case.
+[36d#xferlog_std_format=YES
+[37d#[38d# You may change the default value for timing out an idle session.
+[39d#idle_session_timeout=600
+[40d#[21;35H[22;25H
+[23d#[24;35H[25d[26;15H[27;19H[28;24H
+[29d#[30;35H[31;9H[32;34H
+[33d#[34;35H[35d[36;24H
+[37d#[38;35H[39;26H
+[40d#7[3;41r8[41d[20S[1;43r[21;1H# You may change the default value for timing out a data connection.
+[22d#data_connection_timeout=120
+[23d#[24d# It is recommended that you define on your system a unique user which the
+[26d# ftp server can use as a totally isolated and unprivileged user.
+[27d#nopriv_user=ftpsecure
+[28d#[29d# Enable this and the server will recognise asynchronous ABOR requests. Not
+[30d# recommended for security (the code is non-trivial). Not enabling it,
+[31d# however, may confuse older FTP clients.
+[32d#async_abor_enable=YES
+[33d#[34d# By default the server will pretend to allow ASCII mode but in fact ignore
+[35d# the request. Turn on the below options to have the server actually do ASCII
+[36d# mangling on files when in ASCII mode.
+[37d# Beware that on some FTP servers, ASCII support allows a denial of service
+[38d# attack (DoS) via the command "SIZE /big/file" in ASCII mode. vsftpd
+[39d# predicted this attack and has always been safe, reporting the size of the
+[40d# raw file.[21;35H[22;29H
+[23d#[24;35H
+[25d[26;35H[27;23H
+[28d#[29;35H[30d[31d[32;23H
+[33d#[34;35H[35d[36d[37d[38d[39d[40;12H7[3;41r8
+[41d[20S[1;43r[21;1H# ASCII mangling is a horrible feature of the protocol.
+[22dascii_upload_enable=YES
+[23dascii_download_enable=YES
+[24d#[25d# You may fully customise the login banner string:
+[26dftpd_banner=Welcome to my  FTP service.
+[27d#[28d# You may specify a file of disallowed anonymous e-mail addresses. Apparently
+[29d# useful for combatting certain DoS attacks.
+[30d#deny_email_enable=YES
+[31d# (default follows)
+[32d#banned_email_file=/etc/vsftpd.banned_emails
+[33d#[34d# You may restrict local users to their home directories.  See the FAQ for
+[35d# the possible risks in this before using chroot_local_user or
+[36d# chroot_list_enable below.
+[37d#chroot_local_user=YES
+[38d#[39d# You may specify an explicit list of local users to chroot() to their home
+[40d# directory. If chroot_local_user is YES, then this list becomes a list of[21;35H[22;24H[23dES
+[24d#[25;35H[26d
+[27d#[28;35H[29d[30;23H[31;20H[32;35H
+[33d#[34;35H[35d[36;28H[37;23H
+[38d#[39;35H[40d7[3;41r8
+[41d[20S[1;43r[21;1H# users to NOT chroot().
+[22d# (Warning! chroot'ing can be very dangerous. If using chroot, make sure that
+[23d# the user does not have write access to the top level directory within the
+[24d# chroot)
+[25d#chroot_local_user=YES
+[26d#chroot_list_enable=YES
+[27d# (default follows)
+[28d#chroot_list_file=/etc/vsftpd.chroot_list
+[29d#[30d# You may activate the "-R" option to the builtin ls. This is disabled by
+[31d# default to avoid remote users being able to cause excessive I/O on large
+[32d# sites. However, some broken FTP clients such as "ncftp" and "mirror" assume
+[33d# the presence of the "-R" option, so there is a strong case for enabling it.
+[34d#ls_recurse_enable=YES
+[35d#[36d# Customization
+[37d#[38d# Some of vsftpd's settings don't fit the filesystem layout by
+[39d# default.
+[40d#[21;25H[22;35H[23d[24;10H[25;23H[26dS[27;20H[28;35H
+[29d#[30;35H[31d[32d[33d[34;23H
+[35d#[36;16H
+[37d#[38;35H[39;11H
+[40d#7[3;41r8[41d[20S[1;43r[21;1H# This option should be the name of a directory which is empty.  Also, the
+[22d# directory should not be writable by the ftp user. This directory is used
+[23d# as a secure chroot() jail at times vsftpd does not require filesystem
+[24d# access.
+[25dsecure_chroot_dir=/var/run/vsftpd/empty
+[26d#[27d# This string is the name of the PAM service vsftpd will use.
+[28dpam_service_name=vsftpd
+[29d#[30d# This option specifies the location of the RSA certificate to use for SSL
+[31d# encrypted connections.
+[32drsa_cert_file=/etc/ssl/certs/ssl-cert-snakeoil.pem
+[33drsa_private_key_file=/etc/ssl/private/ssl-cert-snakeoil.key
+[34dssl_enable=NO
+[36d#[37d# Uncomment this to indicate that vsftpd use a utf8 filesystem.
+[38d#utf8_filesystem=YES[21;35H[22d[23d[24;10H[25;35H
+[26d#[27;35H[28;24H
+[29d#[30;35H[31;25H[32;35H[33d[34;14H
+[35d[36d#[37;35H[38;21H
+[39d[41d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                                                   [42;1H Y(B[m Yes[K
+[43d(B[0;7m N(B[m No  [43;16H (B[0;7m^C(B[m Cancel[K[41;62H
+(B[0;7mFile Name to Write: /etc/vsftpd.conf                        
+[42d^G(B[m Get Help[42;29H(B[0;7mM-D(B[m DOS Format[42;57H(B[0;7mM-A(B[m Append[42;85H(B[0;7mM-B(B[m Backup File
+[43d(B[0;7m^C(B[m Cancel[17G            (B[0;7mM-M(B[m Mac Format[43;57H(B[0;7mM-P(B[m Prepend[43;85H(B[0;7m^T(B[m To Files[41;21H[?25l[41;62H[39;49m(B[m[1K (B[0;7m[ Wrote 156 lines ](B[m[K
+[39d[41d[J[1;134H(B[0;7m        [43;143H(B[m[43;1H[?12l[?25h[?1049l
+[?1l>]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ su
+[K]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo vsftpd
+500 OOPS: could not bind listening IPv6 socket
+
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo vsftpdnano /etc/vsftpd.confapt-get install vsftpd
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Ksudo gedit /etc/nginx/sites-enabled/default
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cufw app list[K /usr/sbin/nginxapt-get install nginx
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17P#!/bin/sh[5Pexitsudo apt remove coreutilstudent[Kudo apt remove student-get install coreutils
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pdpkg -s[C[C[C[C[C[C[C[C[C[C[14@sudo apt-cache search[C[C[C[C[C[C[C[C[C[C<coreutils>[6P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pdpkg>package name>[10P-get upgrade[1Pdate[1Ppython timeudp.py [3@client[C[C[C[C[1@3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P timeserver[C[C[C[Cls[Kpython server.py [6Pcd Desktop/pwd[K[1Plsxdg-open ~python client.py server[C[C[C[C[20@cd '/home/s6d1/Desktop/NP_lab/Expt5'[C[10@/server.py[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cxdg-open .[K[5Pcd ..[3Plscd ~[2Plscd ~/Desktop/ls[Kcd NP_labDesktopdesktopls[K[K[Ksudo systemctl restart vsftpd
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo systemctl status vsftpd
+[?1h=
+[0;1;32m●[0m vsftpd.service - vsftpd FTP server[m
+   Loaded: loaded (/lib/systemd/system/vsftpd.service; enabled; vendor preset: e[m
+   Active: [0;1;32mactive (running)[0m since Thu 2019-04-11 11:32:15 IST; 38s ago[m
+  Process: 15911 ExecStartPre=/bin/mkdir -p /var/run/vsftpd/empty (code=exited, [m
+ Main PID: 15914 (vsftpd)[m
+   CGroup: /system.slice/vsftpd.service[m
+           └─15914 /usr/sbin/vsftpd /etc/vsftpd.conf[m
+[m
+Apr 11 11:32:15 cec-HCL-Desktop systemd[1]: Stopping vsftpd FTP server...[m
+Apr 11 11:32:15 cec-HCL-Desktop systemd[1]: Stopped vsftpd FTP server.[m
+Apr 11 11:32:15 cec-HCL-Desktop systemd[1]: Starting vsftpd FTP server...[m
+Apr 11 11:32:15 cec-HCL-Desktop systemd[1]: Started vsftpd FTP server.[m
+[7mlines 1-12/12 (END)[27m[K...skipping...
+[0;1;32m●[0m vsftpd.service - vsftpd FTP server[m
+   Loaded: loaded (/lib/systemd/system/vsftpd.service; enabled; vendor preset: enabled)[m
+   Active: [0;1;32mactive (running)[0m since Thu 2019-04-11 11:32:15 IST; 38s ago[m
+  Process: 15911 ExecStartPre=/bin/mkdir -p /var/run/vsftpd/empty (code=exited, status=0/SUCCESS)[m
+ Main PID: 15914 (vsftpd)[m
+   CGroup: /system.slice/vsftpd.service[m
+           └─15914 /usr/sbin/vsftpd /etc/vsftpd.conf[m
+[m
+Apr 11 11:32:15 cec-HCL-Desktop systemd[1]: Stopping vsftpd FTP server...[m
+Apr 11 11:32:15 cec-HCL-Desktop systemd[1]: Stopped vsftpd FTP server.[m
+Apr 11 11:32:15 cec-HCL-Desktop systemd[1]: Starting vsftpd FTP server...[m
+Apr 11 11:32:15 cec-HCL-Desktop systemd[1]: Started vsftpd FTP server.[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-12/12 (END)[27m[K
+[K
+[K[7mlines 1-12/12 (END)[27m[K
+[K
+[K[7mlines 1-12/12 (END)[27m[K
+[K
+[K[7mlines 1-12/12 (END)[27m[K
+[K
+[K[7mlines 1-12/12 (END)[27m[K
+[K
+[K[7mlines 1-12/12 (END)[27m[K
+[K
+[K[7mlines 1-12/12 (END)[27m[K
+[K [K^X^X[K^?^?
+[K[7mlines 1-12/12 (END)[27m[K
+[K[7mlines 1-12/12 (END)[27m[K
+[K[?1l>
+[1]+  Stopped                 sudo systemctl status vsftpd
+]0;cec@cec-HCL-Desktop: ~[01;32mcec@cec-HCL-Desktop[00m:[01;34m~[00m$ sudo adduser student
+Adding user `student' ...
+Adding new group `student' (1022) ...
+Adding new user `student' (1022) with group `student' ...
+Creating home directory `/home/student' ...
+Copying files from `/etc/skel' ...
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+Changing the user information for student
+Enter the new value, o
